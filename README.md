@@ -1,5 +1,9 @@
 # Active Network Management (ANM): Renewable Integration & Grid Constraint Assessment Tool
 
+[![Python](https://shields.io)](https://python.org)
+[![Pandapower](https://shields.io)](https://pandapower.org)
+[![License: MIT](https://shields.io)](https://opensource.org)
+
 ## 📌 Project Overview & Engineering Context
 As the UK transitions toward Net Zero, distribution networks face unprecedented thermal and voltage constraints due to the rapid connection of distributed generation (DG). Traditional "firm" connection agreements often require expensive, slow network reinforcement. 
 
