@@ -2,3 +2,4 @@ numpy==1.26.4
 pandas==2.2.1
 pandapower==2.14.1
 networkx==3.2.1
+matplotlib>=3.7.0
