@@ -42,9 +42,6 @@ renewable-grid-constraint-assessment/
 │   ├── curtailment_engine.py    # Active Network Management loop and power flow controller
 │   └── visualize_results.py     # Matplotlib publication-quality dual-axis plotting script
 │
-├── notebooks/
-│   └── constraint_analysis.ipynb # Interactive execution, analysis, and data exploration
-│
 ├── .gitignore                  # Project ignore rules
 ├── LICENSE                     # MIT License
 ├── network_curtailment_plot.png # Output visualization highlighting active grid management
