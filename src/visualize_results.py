@@ -89,10 +89,14 @@ ax2.set_ylim(0, 115)
 # Combine legends from both axes into a single box
 lines1, labels1 = ax1.get_legend_handles_labels()
 lines2, labels2 = ax2.get_legend_handles_labels()
+
+# Place the legend horizontally below the X-axis to keep the plot area completely clear
 ax1.legend(
     lines1 + lines2,
     labels1 + labels2,
-    loc="upper left",
+    loc="upper center",
+    bbox_to_anchor=(0.5, -0.18),  # Shifted down below the X-axis label
+    ncol=3,  # Arranged in 3 clean horizontal columns
     frameon=True,
     facecolor="white",
     edgecolor="none",
@@ -105,9 +109,11 @@ plt.title(
     fontweight="bold",
     pad=15,
 )
+
+# Tight layout is critical to prevent overlapping text with the relocated legend
 fig.tight_layout()
 
-# Save the plot directly to the directory so you can link it into your README.md file
+# Save the plot directly to the directory
 plt.savefig("network_curtailment_plot.png", bbox_inches="tight")
 print(
     "\nSuccess: Saved analytical chart to root folder as 'network_curtailment_plot.png'"
