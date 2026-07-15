@@ -36,19 +36,19 @@ The codebase is decoupled into modular engineering blocks designed to automate t
 ```text
 renewable-grid-constraint-assessment/
 │
-├── .gitignore                  # Keeps your environment and cache clean[cite: 5]
-├── LICENSE                     # MIT License under your name[cite: 6]
+├── .gitignore                  # Keeps your environment and cache clean
+├── LICENSE                     # MIT License under your name
 ├── README.md                   # Project documentation and analysis summary
 ├── requirements.txt            # Software dependencies
 │
 ├── notebooks/
-│   └── constraint_analysis.ipynb # Interactive evaluation notebook[cite: 1, 7]
+│   └── constraint_analysis.ipynb # Interactive evaluation notebook
 │
 └── src/
     ├── __init__.py             # Marks directory as a Python package
     ├── grid_model.py            # Pandapower physical grid setup
     ├── curtailment_engine.py    # Closed-loop dynamic curtailment
-    └── visualize_results.py     # Matplotlib dual-axis plotting[cite: 4, 7]
+    └── visualize_results.py     # Matplotlib dual-axis plotting
 ```
 
 ---
