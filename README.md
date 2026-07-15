@@ -63,7 +63,6 @@ Clone the repository and install the required dependencies using pip:
 git clone https://github.com/your-username/renewable-grid-constraint-assessment
 cd renewable-grid-constraint-assessment
 pip install -r requirements.txt
-pip install matplotlib
 ```
 
 ### 3. Execution
