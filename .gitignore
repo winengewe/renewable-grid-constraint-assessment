@@ -1,0 +1,14 @@
+# Virtual environment folder (local libraries)
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache files (speeds up execution locally, but useless on GitHub)
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Operating system files (optional, but keeps your repo clean)
+.DS_Store
+Thumbs.db
