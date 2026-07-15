@@ -36,21 +36,19 @@ The codebase is decoupled into modular engineering blocks designed to automate t
 ```text
 renewable-grid-constraint-assessment/
 │
-├── data/
-│   └── profiles.csv             # 24-hour time-series data for demand and wind capacity
+├── .gitignore                  # Keeps your environment and cache clean
+├── LICENSE                     # MIT License under your name
+├── README.md                   # Project documentation and analysis summary
+├── requirements.txt            # Software dependencies
 │
 ├── notebooks/
-│   └── constraint_analysis.ipynb # Interactive execution, analysis, and data exploration
+│   └── constraint_analysis.ipynb # Interactive evaluation notebook
 │
-├── src/
-│   ├── __init__.py
-│   ├── grid_model.py            # Pandapower topology setup and network initialization
-│   ├── curtailment_engine.py    # Active Network Management loop and power flow controller
-│   └── visualize_results.py     # Matplotlib publication-quality dual-axis plotting script
-│
-├── network_curtailment_plot.png # Output visualization highlighting active grid management
-├── README.md                    # Professional executive report and documentation
-└── requirements.txt             # Project software dependencies
+└── src/
+    ├── __init__.py             # Marks directory as a Python package
+    ├── grid_model.py            # Pandapower physical grid setup
+    ├── curtailment_engine.py    # Closed-loop dynamic curtailment
+    └── visualize_results.py     # Matplotlib dual-axis plotting
 ```
 
 ---
